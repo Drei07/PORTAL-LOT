@@ -1,6 +1,8 @@
 <?php
 // Opens a connection to a MySQL server.
-$connection=mysqli_connect ("localhost", 'root', '','realestatephp');
+
+// $connection=mysqli_connect ("localhost", 'root', '','realestatephp');
+$connection=mysqli_connect("localhost","u867039073_portallot","Portallot2022","u867039073_portallot");
 if (!$connection) {
     die('Not connected : ' . mysqli_connect_error());
 }
