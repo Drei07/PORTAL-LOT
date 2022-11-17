@@ -420,7 +420,7 @@ if(isset($_POST['add']))
 					<option value="">Select...</option>
 					<?php
 					$servername = "localhost";
-					$username = "rou867039073_portallotot";
+					$username = "u867039073_portallot";
 					$password = "Portallot2022";
 					$dbname = "u867039073_portallot";
 					

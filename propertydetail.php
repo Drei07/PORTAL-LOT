@@ -236,7 +236,7 @@ if($error){
                             <?php
                              $user_agent = $row['agent'];
                              $servername = "localhost";
-                             $username = "rou867039073_portallotot";
+                             $username = "u867039073_portallot";
                              $password = "Portallot2022";
                              $dbname = "u867039073_portallot";
                             
@@ -289,7 +289,7 @@ if($error){
                                                     <?php }else{
 $agent_id_status_id = $_SESSION['uid'];
 $servername = "localhost";
-$username = "rou867039073_portallotot";
+$username = "u867039073_portallot";
 $password = "Portallot2022";
 $dbname = "u867039073_portallot";
 
@@ -413,7 +413,7 @@ if(!isset($_SESSION['uid']) == '')
 
 $user_id_status_id = $_SESSION['uid'];
 $servername = "localhost";
-$username = "rou867039073_portallotot";
+$username = "u867039073_portallot";
 $password = "Portallot2022";
 $dbname = "u867039073_portallot";
 
@@ -477,7 +477,7 @@ if ($result_user->num_rows > 0) {
 							<div class="ex3">
 <?php
 				$servername = "localhost";
-				$username = "rou867039073_portallotot";
+				$username = "u867039073_portallot";
 				$password = "Portallot2022";
 				$dbname = "u867039073_portallot";
 
