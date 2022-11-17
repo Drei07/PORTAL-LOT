@@ -7,9 +7,9 @@
 
 
     $servername = "localhost";
-    $username = "root";
-    $password = "";
-    $dbname = "realestatephp";
+    $username = "u867039073_portallot";
+    $password = "Portallot2022";
+    $dbname = "u867039073_portallot";
     
     // Create connection
     $conn = new mysqli($servername, $username, $password, $dbname);
