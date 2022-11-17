@@ -420,9 +420,9 @@ if(isset($_POST['add']))
 					<option value="">Select...</option>
 					<?php
 					$servername = "localhost";
-					$username = "root";
-					$password = "";
-					$dbname = "realestatephp";
+					$username = "rou867039073_portallotot";
+					$password = "Portallot2022";
+					$dbname = "u867039073_portallot";
 					
 					// Create connection
 					$conn = new mysqli($servername, $username, $password, $dbname);

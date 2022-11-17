@@ -235,10 +235,10 @@ if($error){
 
                             <?php
                              $user_agent = $row['agent'];
-                            $servername = "localhost";
-                            $username = "root";
-                            $password = "";
-                            $dbname = "realestatephp";
+                             $servername = "localhost";
+                             $username = "rou867039073_portallotot";
+                             $password = "Portallot2022";
+                             $dbname = "u867039073_portallot";
                             
                             // Create connection
                             $conn = new mysqli($servername, $username, $password, $dbname);
@@ -289,9 +289,9 @@ if($error){
                                                     <?php }else{
 $agent_id_status_id = $_SESSION['uid'];
 $servername = "localhost";
-$username = "root";
-$password = "";
-$dbname = "realestatephp";
+$username = "rou867039073_portallotot";
+$password = "Portallot2022";
+$dbname = "u867039073_portallot";
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
@@ -413,9 +413,9 @@ if(!isset($_SESSION['uid']) == '')
 
 $user_id_status_id = $_SESSION['uid'];
 $servername = "localhost";
-$username = "root";
-$password = "";
-$dbname = "realestatephp";
+$username = "rou867039073_portallotot";
+$password = "Portallot2022";
+$dbname = "u867039073_portallot";
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
@@ -476,10 +476,10 @@ if ($result_user->num_rows > 0) {
 							
 							<div class="ex3">
 <?php
-$servername = "localhost";
-$username = "root";
-$password = "";
-$dbname = "realestatephp";
+				$servername = "localhost";
+				$username = "rou867039073_portallotot";
+				$password = "Portallot2022";
+				$dbname = "u867039073_portallot";
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);

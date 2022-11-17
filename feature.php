@@ -135,10 +135,10 @@ if(!isset($_SESSION['uemail']))
                                 
                                 $agent_number = $row['agent'];
 
-                    $servername = "localhost";
+                    $servername = "u867039073_portallot";
 					$username = "root";
-					$password = "";
-					$dbname = "realestatephp";
+					$password = "Portallot2022";
+					$dbname = "u867039073_portallot";
 					
 					// Create connection
 					$conn = new mysqli($servername, $username, $password, $dbname);

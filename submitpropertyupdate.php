@@ -282,10 +282,10 @@ if(isset($_POST['add']))
 													<select class="form-control" required name="agent">
 					<option value="">Select Agent</option>
 					<?php
-					$servername = "localhost";
-					$username = "root";
-					$password = "";
-					$dbname = "realestatephp";
+				$servername = "localhost";
+				$username = "rou867039073_portallotot";
+				$password = "Portallot2022";
+				$dbname = "u867039073_portallot";
 					
 					// Create connection
 					$conn = new mysqli($servername, $username, $password, $dbname);
