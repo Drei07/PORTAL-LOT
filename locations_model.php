@@ -15,7 +15,7 @@ if(isset($_GET['confirm_location'])) {
 
 
 function get_all_locations(){
-    $con=mysqli_connect ("localhost", 'root', '','realestatephp');
+    $con=mysqli_connect ("localhost", 'u867039073_portallot', 'Portallot2022','u867039073_portallot');
     if (!$con) {
         die('Not connected : ' . mysqli_connect_error());
     }
