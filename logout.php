@@ -9,8 +9,8 @@ session_start();
 $up = $_SESSION['uid'];
 
 
-				$servername = "localhost";
-				$username = "rou867039073_portallotot";
+$servername = "localhost";
+				$username = "u867039073_portallot";
 				$password = "Portallot2022";
 				$dbname = "u867039073_portallot";
 				
